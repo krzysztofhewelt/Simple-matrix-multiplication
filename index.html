@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>Matrix Multiplication Calculator</title>
+		<meta charset="utf-8">
+		<link rel="stylesheet" href="style.css">
+		<script src="script.js" defer></script>
+	</head>
+	<body>
+		<h1>Matrix Multiplication Calculator</h1>
+		<div class="matrixInputs">
+			<label for="matrixARows"><b>Matrix A dimensions:</b></label>
+			<input type="text" onKeyUp="updateRows()" id="matrixARows" min="3" max="50">
+			x
+			<input type="text" onKeyUp="updateRows()" id="matrixAColumns" min="3" max="50">
+		</div>
+		
+		<div class="matrixInputs">
+			<label for="matrixBColumns"><b>Matrix B dimensions:</b></label>
+			<input type="text" id="matrixBRows" disabled> 
+			x 
+			<input type="text" onKeyUp="updateRows()" id="matrixBColumns" min="3" max="50">
+		</div>
+		
+		<div id="matrixAContainer"></div>
+		<div id="matrixBContainer"></div>
+		
+		<button onClick="calculateMatrix()" id="calcButton">Calculate</button>
+		
+		<div id="results"></div>
+	</body>
+</html>

@@ -1,0 +1,21 @@
+input[type="text"]
+{
+    width: 50px;
+}
+
+div
+{
+    width: max-content;
+    overflow-y: auto;
+}
+
+#calcButton 
+{
+    visibility: hidden;
+    padding: 5px 15px;
+    margin-top: 20px;
+}
+
+.matrixInputs {
+    padding: 5px 0;
+}
