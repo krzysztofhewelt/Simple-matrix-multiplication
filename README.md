@@ -16,10 +16,11 @@ git clone https://github.com/krzysztofhewelt/Simple-matrix-multiplication
 ```
 2. Run index.html in your browser
 
-# Used technologies
+# Used technologies and tools
 - HTML
 - JavaScript
 - CSS
+- IDE: VSCode
 
 # License
 Distributed under the Apache License 2.0.
